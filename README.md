@@ -1,5 +1,12 @@
 # Image mattiong	
+## Performance:
+
+
+![flowers-compA](./test_images/small/flowers-compA.jpg)
+![backgroud](./test_images/small/window.jpg)
+![comp](./src/comp.jpg)
 ### Usage:
+```
 python viscomp.py --matting \
                 --backA ../test_images/small/flowers-backA.jpg \
                 --backB ../test_images/small/flowers-backB.jpg \
@@ -7,7 +14,9 @@ python viscomp.py --matting \
                 --compB ../test_images/small/flowers-compB.jpg \
                 --alphaOut alpha.tif \
                 --colOut col.tif
-                
+```
+
+               
 
 ### Input
 ![flowers-backA](./test_images/tiny/flowers-backA.jpg)
@@ -25,11 +34,13 @@ python viscomp.py --matting \
 
 # Image compositing 
 ### Usage:
+```
 python viscomp.py --compositing \
 	            --alphaIn alpha.tif \
 	            --colIn col.tif \
 	            --backIn ../test_images/small/window.jpg \
 	            --compOut comp.jpg
+```
 ### Input
 
 ![alpha](./src/alpha.jpg)
