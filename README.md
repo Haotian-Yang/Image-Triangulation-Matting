@@ -10,13 +10,13 @@ python viscomp.py --matting \
                 
 
 ### Input
-![flowers-backA](./test_images/small/flowers-backA.jpg)
+![flowers-backA](./test_images/tiny/flowers-backA.jpg)
 +
-![flowers-backB](./test_images/small/flowers-backB.jpg)
+![flowers-backB](./test_images/tiny/flowers-backB.jpg)
 +
-![flowers-compA](./test_images/small/flowers-compA.jpg)
+![flowers-compA](./test_images/tiny/flowers-compA.jpg)
 +
-![flowers-compB](./test_images/small/flowers-compB.jpg)
+![flowers-compB](./test_images/tiny/flowers-compB.jpg)
 
 ### Output
 ![alpha](./src/alpha.jpg)
@@ -36,7 +36,7 @@ python viscomp.py --compositing \
 +
 ![col](./src/col.jpg)
 +
-![backgroud](./test_images/small/window.jpg)
+![backgroud](./test_images/tiny/window.jpg)
 
 ### Outout
 
